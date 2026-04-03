@@ -1,0 +1,38 @@
+{
+  "totalUsers": "1,234",
+  "yesterdayRead": "385",
+  "yesterdayShare": "5",
+  "yesterdayFollow": "2",
+  "articles": [
+    {
+      "title": "效率提升 6 倍！尚元智行燃气巡检车来了",
+      "date": "2026-04-01",
+      "read": "778",
+      "share": "5",
+      "like": "9",
+      "inLook": "5"
+    },
+    {
+      "title": "3 秒出水！泓瑞消防无人车来了",
+      "date": "2026-03-30",
+      "read": "128",
+      "share": "2",
+      "like": "0",
+      "inLook": "0"
+    },
+    {
+      "title": "-20℃到 12℃！T320 无人冷链车来了",
+      "date": "2026-04-01",
+      "read": "172",
+      "share": "1",
+      "like": "2",
+      "inLook": "1"
+    }
+  ],
+  "boostQuota": {
+    "availableExposure": "10,000",
+    "availableIncentive": "300",
+    "expiringSoon": "50",
+    "expiringDate": "2026-04-15"
+  }
+}

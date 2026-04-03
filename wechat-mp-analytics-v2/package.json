@@ -1,0 +1,66 @@
+{
+  "name": "wechat-mp-analytics-v2",
+  "version": "2.1.0",
+  "description": "微信公众号数据抓取与投流管理技能（增强版）",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest tests/",
+    "test:unit": "jest tests/unit/",
+    "test:integration": "jest tests/integration/",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint references/*.js",
+    "check-env": "powershell -ExecutionPolicy Bypass -File scripts/check-env.ps1",
+    "preinstall": "node scripts/preinstall.js"
+  },
+  "keywords": [
+    "wechat",
+    "analytics",
+    "openclaw",
+    "skill",
+    "cdp",
+    "browser-automation"
+  ],
+  "author": "Moss",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "os": [
+    "win32",
+    "darwin",
+    "linux"
+  ],
+  "dependencies": {
+    "puppeteer-core": "^21.0.0",
+    "node-fetch": "^3.3.0",
+    "ws": "^8.14.0"
+  },
+  "config": {
+    "puppeteerSkipDownload": true
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "eslint": "^8.50.0",
+    "jest-puppeteer": "^9.0.0"
+  },
+  "peerDependencies": {
+    "openclaw": ">=1.0.0"
+  },
+  "optionalDependencies": {
+    "global-agent": "^3.0.0"
+  },
+  "config": {
+    "chromePort": 9222,
+    "maxRetries": 3,
+    "timeout": 10000
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openclaw/skills/tree/main/wechat-mp-analytics-v2"
+  },
+  "bugs": {
+    "url": "https://github.com/openclaw/skills/issues"
+  },
+  "homepage": "https://github.com/openclaw/skills/tree/main/wechat-mp-analytics-v2#readme"
+}
